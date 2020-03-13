@@ -17,7 +17,7 @@ class TestFunctions(unittest.TestCase):
         self.assertEqual(15, add_multiple_values(1,2,3,4,5))
 
     def test_full_name(self):
-        self.assertEqual("Doe, John", get_full_name("John", "Doe"))
+        self.assertEqual("John, Doe", get_full_name("John", "Doe"))
 
 if __name__ == '__main__':
     unittest.main()
